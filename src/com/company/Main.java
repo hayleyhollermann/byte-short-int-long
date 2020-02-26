@@ -34,5 +34,14 @@ public class Main {
         System.out.println("Long min value = " + myMinLongValue);
         System.out.println("Long max value = " + myMaxLongValue);
         long bigLongLiteralValue = 21474836477L; // L is not needed for a number that is within the int range - treated like an int
+
+        // Arithmetic
+        int myTotal = (myMinIntValue / 2);
+        System.out.println("myTotal = " + myTotal);
+
+        // Casting
+        byte myNewByteValue = (byte)(myMinByteValue / 2); // casting - java uses int by default
+        short myNewShortValue = (short)(myMinShortValue / 2);
+
     }
 }
