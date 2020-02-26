@@ -43,5 +43,21 @@ public class Main {
         byte myNewByteValue = (byte)(myMinByteValue / 2); // casting - java uses int by default
         short myNewShortValue = (short)(myMinShortValue / 2);
 
+
+        // CHALLENGE
+        // 1. Create a byte variable and set it to any valid byte number
+        byte challengeByte = 42;
+
+        // 2. Create a short variable and set it to any valid short number
+        short challengeShort = 250;
+
+        // 3. Create an int variable and set it to any valid int number
+        int challengeInt = 2147000000;
+
+        // 4. Create a long variable and
+        // set it to 50000 plus 10 times the sum of the byte plus the short plus the int values
+        long challengeLong = (5000 + 10L * (challengeByte + challengeShort + challengeInt));
+        System.out.println("challenge solution = " + challengeLong);
+        
     }
 }
