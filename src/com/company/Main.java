@@ -27,5 +27,12 @@ public class Main {
         System.out.println("Short min value = " + myMinShortValue);
         System.out.println("Short max value = " + myMaxShortValue);
 
+        // LONG
+        long myLongValue = 100L; // L declares it is a long value
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+        System.out.println("Long min value = " + myMinLongValue);
+        System.out.println("Long max value = " + myMaxLongValue);
+        long bigLongLiteralValue = 21474836477L; // L is not needed for a number that is within the int range - treated like an int
     }
 }
