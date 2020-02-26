@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        
+
         // INT
         int myValue = 10000;
         int myMinIntValue = Integer.MIN_VALUE;
@@ -21,7 +21,11 @@ public class Main {
         System.out.println("byte min value = " + myMinByteValue);
         System.out.println("byte max value = " + myMaxByteValue);
 
-
+        // SHORT
+        short myMinShortValue = Short.MIN_VALUE;
+        short myMaxShortValue = Short.MAX_VALUE;
+        System.out.println("Short min value = " + myMinShortValue);
+        System.out.println("Short max value = " + myMaxShortValue);
 
     }
 }
